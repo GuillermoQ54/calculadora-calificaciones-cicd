@@ -43,14 +43,14 @@ export function obtenerEstado(promedio) {
   return promedio >= 7 ? 'Aprobado' : 'Reprobado';
 }
 
-export function clasificarPromedio(promedio) {
+/*export function clasificarPromedio(promedio) {
   validarPromedio(promedio);
 
   if (promedio >= 9) return 'Excelente';
   if (promedio >= 7) return 'Aprobado';
   if (promedio >= 5) return 'Recuperación';
   return 'Reprobado';
-}
+}*/
 
 function validarPromedio(promedio) {
   if (!Number.isFinite(promedio)) {
