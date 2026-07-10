@@ -38,3 +38,4 @@ jobs:
 
       - name: Construir el artefacto web
         run: npm run build
+        
